@@ -1,8 +1,8 @@
 let num=13;
-let count=1;
+let count=0;
 
-for(let i=0;i<13;i++){
-	if(i/13==0){
+for(let i=1;i<=13;i++){
+	if(13%i==0){
 		count++;
 	}
 }
